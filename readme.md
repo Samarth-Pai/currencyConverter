@@ -1,0 +1,2 @@
+# Currency Converter
+This project is a part of Indently's "The currency converter challenge" which uses https://frankfurter.dev api for fetching real time time currency update and uses caching for avoid repeated api calls for faster response
