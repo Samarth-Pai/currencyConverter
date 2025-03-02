@@ -67,5 +67,4 @@ if __name__=="__main__":
     from_currency = input("Enter base currency code: ").upper()
     to_currency = input("Enter the currency code to be converted: ").upper()
     amount = float(input("Enter amount: "))
-    response = requests.get(f"https://api.frankfurter.dev/v1/latest?base=INR&symbols=USD,GBP")
     print(f"Converted amont: {convert(from_currency, to_currency, amount)}")
